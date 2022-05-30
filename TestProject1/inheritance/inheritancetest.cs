@@ -1,7 +1,7 @@
 namespace TestProject1
 {
     [TestClass]
-    public class inheritancetest
+    public class InheritanceTest
     {
         [TestMethod]
         public void inheritance1()

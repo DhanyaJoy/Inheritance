@@ -1,7 +1,7 @@
 namespace TestProject1
 {
     [TestClass]
-    public class constructortest
+    public class ConstructorTest
     {
         [TestMethod]
         public void TestMethod1()
