@@ -1,8 +1,9 @@
 ﻿namespace TestProject1
 {
-    public class transportation
+     public class transportation
     {
         public string name;
+        public string color;
         public transportation()
         {
             name ="Honda";
@@ -21,7 +22,7 @@
         public void display()
         {
             name = "Tayota";
-            Console.WriteLine(name);
+            Console.WriteLine("transportation"+name);
 
         }
         public void display(string name)
@@ -30,6 +31,16 @@
             Console.WriteLine("welcome"+this.name);
 
         }
+        virtual public void drive()
+        {
+            //name = "Tayota";
+            Console.WriteLine(nameof(transportation)+nameof(drive));
+
+        }
+       // abstract public int GetNumOfTyres();
+        
+
+    
 
     }
 }

@@ -4,13 +4,45 @@ namespace TestProject1
     public class inheritancetest
     {
         [TestMethod]
-        public void TestMethod1()
+        public void inheritance1()
         {
-            //transportation transportationobj = new transportation(7);
-            car carobj=new car();
+            transportation transportationobj = new transportation();
+           car carobj=new car();
            // Assert.AreEqual("Honda",tranaportationobj.name);
-          // transportationobj.display("hi");
+         // transportationobj.display("hi");
             carobj.display();
         }
+       
+        [TestMethod]
+        public void inheritance2()
+        {
+        
+             car carobj=new car();
+            carobj.display();
+        }
+        [TestMethod]
+        public void overridingNotHappen()
+        {
+            transportation transportationobj = new car();
+            // car carobj=new car();
+            // Assert.AreEqual("Honda",tranaportationobj.name);
+            transportationobj.display();
+        }
+        [TestMethod]
+        public void overriddingWorked()
+        {
+
+            transportation transportationobj = new car();
+            transportationobj.drive();
+        }
+        [TestMethod]
+        public void BaseFnCanBeCalledUsingBaseObjEvenIfAFnIsVirtual()
+        {
+
+            transportation transportationobj = new transportation();
+            transportationobj.drive();
+        }
+
     }
+
 }
