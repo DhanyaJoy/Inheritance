@@ -13,7 +13,7 @@ namespace TestProject1.NamespaceLearning
         [TestMethod]
         public void TestMethod1()
         {
-            Console.WriteLine("TestMethod is called");
+            Console.WriteLine("TestMethod 1 is called");
            // Flowers();
 
         }
@@ -30,7 +30,7 @@ namespace TestProject2.NamespaceLearning
         [TestMethod]
         public void TestMethod1()
         {
-            Console.WriteLine("TestMethod is called");
+            Console.WriteLine("TestMethod 2 is called");
             // Flowers();
 
         }
