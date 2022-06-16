@@ -1,3 +1,6 @@
+
+using trans;
+
 namespace TestProject1
 {
     [TestClass]

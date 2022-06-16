@@ -1,4 +1,6 @@
-﻿namespace TestProject1
+﻿using trans;
+
+namespace TestProject1
 {
     public class car : transportation
     {
